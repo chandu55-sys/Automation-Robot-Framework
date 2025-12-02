@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-12-01T11:07:46.894495" rpa="false" schemaversion="5">
+<suite id="s1" name="LoginTest" source="C:\Users\AIFA USER 77\PycharmProjects\Practice1\TestCases\LoginTest.robot">
+<test id="s1-t1" name="Login Test" line="12">
+<kw name="Open my Browser" owner="LoginKeywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-01T11:07:48.017176" level="INFO">Opening browser 'headlesschrome' to base url 'https://demo.guru99.com/test/newtours/index.php'.</msg>
+<arg>${siteUrl}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-12-01T11:07:48.015869" elapsed="4.310182"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-12-01T11:07:52.326581" elapsed="0.031715"/>
+</kw>
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+<status status="PASS" start="2025-12-01T11:07:48.009868" elapsed="4.348740"/>
+</kw>
+<kw name="Enter user name" owner="LoginKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-12-01T11:07:52.361067" level="INFO">Typing text 'admin' into text field 'name:userName'.</msg>
+<arg>${txt_loginUserName}</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-01T11:07:52.360182" elapsed="0.346426"/>
+</kw>
+<arg>${user}</arg>
+<status status="PASS" start="2025-12-01T11:07:52.359053" elapsed="0.348028"/>
+</kw>
+<kw name="Enter password" owner="LoginKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-12-01T11:07:52.709184" level="INFO">Typing text 'admin' into text field 'name:password'.</msg>
+<arg>${txt_loginPassword}</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-01T11:07:52.708615" elapsed="0.250283"/>
+</kw>
+<arg>${pwd}</arg>
+<status status="PASS" start="2025-12-01T11:07:52.707648" elapsed="0.251573"/>
+</kw>
+<kw name="Click signin" owner="LoginKeywords">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-12-01T11:07:52.961813" level="INFO">Clicking button 'xpath://input[@name='submit']'.</msg>
+<arg>${btnLogin}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-01T11:07:52.960771" elapsed="2.782137"/>
+</kw>
+<status status="PASS" start="2025-12-01T11:07:52.959652" elapsed="2.783714"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-12-01T11:07:58.745302" level="INFO">Slept 3 seconds.</msg>
+<arg>3 seconds</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-12-01T11:07:55.744207" elapsed="3.001310"/>
+</kw>
+<kw name="Verify login" owner="LoginKeywords">
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-12-01T11:07:58.758656" level="INFO">Page title is 'Login: Mercury Tours'.</msg>
+<arg>Login: Mercury Tours</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-12-01T11:07:58.746631" elapsed="0.012236"/>
+</kw>
+<status status="PASS" start="2025-12-01T11:07:58.745942" elapsed="0.013164"/>
+</kw>
+<kw name="Close the browser" owner="LoginKeywords">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2025-12-01T11:07:58.760165" elapsed="2.205931"/>
+</kw>
+<status status="PASS" start="2025-12-01T11:07:58.759460" elapsed="2.206907"/>
+</kw>
+<status status="PASS" start="2025-12-01T11:07:48.007171" elapsed="12.959516"/>
+</test>
+<status status="PASS" start="2025-12-01T11:07:46.939176" elapsed="14.028541"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="LoginTest" id="s1" pass="1" fail="0" skip="0">LoginTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

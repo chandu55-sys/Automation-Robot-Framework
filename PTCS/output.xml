@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-26T15:22:21.275595" rpa="false" schemaversion="5">
+<suite id="s1" name="LoginHRMDD" source="C:\Users\AIFA USER 77\PycharmProjects\Practice1\ptcs\LoginHRMDD.robot">
+<test id="s1-t1" name="Valid Login Test" line="7">
+<kw name="Execute Login">
+<kw name="Launch Browser" owner="HRMResources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:21.522588" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-26T15:22:21.522344" elapsed="4.256581"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-26T15:22:25.779145" elapsed="0.026126"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-26T15:22:27.806098" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-26T15:22:25.805455" elapsed="2.001075"/>
+</kw>
+<status status="PASS" start="2025-11-26T15:22:21.521697" elapsed="6.285363"/>
+</kw>
+<kw name="Login Details" owner="HRMResources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:27.811489" level="INFO">Typing text 'Admin' into text field 'name:username'.</msg>
+<arg>name:username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:27.809961" elapsed="0.101051"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:27.911565" level="INFO">Typing text 'admin123d' into text field 'name:password'.</msg>
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:27.911253" elapsed="0.092205"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:28.003845" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:28.003647" elapsed="0.071337"/>
+</kw>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="PASS" start="2025-11-26T15:22:27.808013" elapsed="0.267111"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-26T15:22:30.076844" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-26T15:22:28.075310" elapsed="2.001962"/>
+</kw>
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<msg time="2025-11-26T15:22:30.115164" level="FAIL">Recursive execution stopped.</msg>
+<status status="FAIL" start="2025-11-26T15:22:30.114830" elapsed="0.000379">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.114640" elapsed="0.000858">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.114388" elapsed="0.001422">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.113829" elapsed="0.002253">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.113615" elapsed="0.002806">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.113432" elapsed="0.003238">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.113253" elapsed="0.003659">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.113067" elapsed="0.004086">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.112885" elapsed="0.004507">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.112702" elapsed="0.004925">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.112515" elapsed="0.005348">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.112333" elapsed="0.005762">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.112141" elapsed="0.006191">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.111959" elapsed="0.006614">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.111769" elapsed="0.007154">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.111579" elapsed="0.007582">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.111139" elapsed="0.008305">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.110846" elapsed="0.008894">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.110527" elapsed="0.009447">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.110339" elapsed="0.009856">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.110143" elapsed="0.010276">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.109965" elapsed="0.010671">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.109789" elapsed="0.011059">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.109602" elapsed="0.011456">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.109420" elapsed="0.011882">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.109237" elapsed="0.012274">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.109049" elapsed="0.012675">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.108863" elapsed="0.013069">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.108669" elapsed="0.013469">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.108239" elapsed="0.014175">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.107857" elapsed="0.014792">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.107672" elapsed="0.015205">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.107485" elapsed="0.015591">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.107304" elapsed="0.015968">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.107116" elapsed="0.016348">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.106920" elapsed="0.016734">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.106608" elapsed="0.017238">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.106422" elapsed="0.017614">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.106228" elapsed="0.017996">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.106044" elapsed="0.018556">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.105857" elapsed="0.018944">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.105669" elapsed="0.019321">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.105417" elapsed="0.019820">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.104892" elapsed="0.020555">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.104674" elapsed="0.021144">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.104497" elapsed="0.021534">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.104320" elapsed="0.021895">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.104126" elapsed="0.022286">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.103947" elapsed="0.022645">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.103770" elapsed="0.023002">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.103583" elapsed="0.023373">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.103402" elapsed="0.023729">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.103221" elapsed="0.024222">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.103032" elapsed="0.024797">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.102841" elapsed="0.025297">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.102649" elapsed="0.025724">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.102200" elapsed="0.026401">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.101936" elapsed="0.026895">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.101748" elapsed="0.027271">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.101569" elapsed="0.027618">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.101381" elapsed="0.027971">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.101198" elapsed="0.028316">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.101013" elapsed="0.028664">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.100825" elapsed="0.029020">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.100641" elapsed="0.029364">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.100454" elapsed="0.029709">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.100258" elapsed="0.030066">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.100067" elapsed="0.030426">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.099873" elapsed="0.030775">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.099537" elapsed="0.031326">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.099146" elapsed="0.031890">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.098960" elapsed="0.032255">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.098774" elapsed="0.032596">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.098590" elapsed="0.032930">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.098390" elapsed="0.033277">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.098091" elapsed="0.033724">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.097903" elapsed="0.034056">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.097721" elapsed="0.034383">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.097541" elapsed="0.034706">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.097352" elapsed="0.035045">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.097162" elapsed="0.035378">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.096972" elapsed="0.035740">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.096718" elapsed="0.036187">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.096167" elapsed="0.036900">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.095950" elapsed="0.037340">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.095768" elapsed="0.037658">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.095583" elapsed="0.037976">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.095393" elapsed="0.038297">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.095211" elapsed="0.038616">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.095031" elapsed="0.038925">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.094835" elapsed="0.039247">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.094647" elapsed="0.039564">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.094452" elapsed="0.039883">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.094230" elapsed="0.040236">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.093893" elapsed="0.040703">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.093683" elapsed="0.041037">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.093128" elapsed="0.041760">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.092828" elapsed="0.042243">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.092633" elapsed="0.042571">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.092365" elapsed="0.042959">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.092090" elapsed="0.043351">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.091911" elapsed="0.043648">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.091732" elapsed="0.043944">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.091547" elapsed="0.044241">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.091357" elapsed="0.044543">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.091176" elapsed="0.044834">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.090986" elapsed="0.045133">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.090798" elapsed="0.045428">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.090601" elapsed="0.045730">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.090257" elapsed="0.046250">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.089854" elapsed="0.046777">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.089666" elapsed="0.047096">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.089462" elapsed="0.047405">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.089269" elapsed="0.047699">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.089057" elapsed="0.048013">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.088617" elapsed="0.048552">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.088412" elapsed="0.048854">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.088206" elapsed="0.049158">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.088003" elapsed="0.049456">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.087813" elapsed="0.049745">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.087612" elapsed="0.050058">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.087391" elapsed="0.050374">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.087113" elapsed="0.050800">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.086508" elapsed="0.051519">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.086240" elapsed="0.051961">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.086035" elapsed="0.052257">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.085830" elapsed="0.052561">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.085626" elapsed="0.052854">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.085401" elapsed="0.053163">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.085194" elapsed="0.053452">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.084973" elapsed="0.053755">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.084754" elapsed="0.054059">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.084541" elapsed="0.054371">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.084306" elapsed="0.054686">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.084064" elapsed="0.055004">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.083832" elapsed="0.055313">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.083284" elapsed="0.055986">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.082924" elapsed="0.056468">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.082693" elapsed="0.056785">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.082460" elapsed="0.057092">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.082213" elapsed="0.057412">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.081979" elapsed="0.057721">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.081743" elapsed="0.058028">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.081185" elapsed="0.058666">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.080105" elapsed="0.059809">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.078723" elapsed="0.061254">Recursive execution stopped.</status>
+</kw>
+<arg>Admin</arg>
+<arg>admin123d</arg>
+<status status="FAIL" start="2025-11-26T15:22:21.521246" elapsed="8.618795">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:21.520405" elapsed="8.620068">Recursive execution stopped.</status>
+</test>
+<test id="s1-t2" name="Invalid Password Test" line="8">
+<kw name="Execute Login">
+<kw name="Launch Browser" owner="HRMResources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:30.142317" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-26T15:22:30.142131" elapsed="3.995723"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-26T15:22:34.138045" elapsed="0.027363"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-26T15:22:36.166361" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-26T15:22:34.165572" elapsed="2.000958"/>
+</kw>
+<status status="PASS" start="2025-11-26T15:22:30.141938" elapsed="6.024768"/>
+</kw>
+<kw name="Login Details" owner="HRMResources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:36.168118" level="INFO">Typing text 'Admin' into text field 'name:username'.</msg>
+<arg>name:username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:36.167715" elapsed="0.111102"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:36.279870" level="INFO">Typing text 'wrongpass' into text field 'name:password'.</msg>
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:36.279174" elapsed="0.107805"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:36.387768" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:36.387391" elapsed="0.080518"/>
+</kw>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="PASS" start="2025-11-26T15:22:36.167039" elapsed="0.301087"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-26T15:22:38.469551" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-26T15:22:36.468389" elapsed="2.001556"/>
+</kw>
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<msg time="2025-11-26T15:22:38.530066" level="FAIL">Recursive execution stopped.</msg>
+<status status="FAIL" start="2025-11-26T15:22:38.529755" elapsed="0.000350">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.529574" elapsed="0.000791">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.529325" elapsed="0.001548">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.528839" elapsed="0.002300">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.528634" elapsed="0.002834">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.528458" elapsed="0.003253">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.528184" elapsed="0.003759">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.528007" elapsed="0.004166">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.527839" elapsed="0.004559">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.527669" elapsed="0.004950">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.527489" elapsed="0.005357">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.527312" elapsed="0.005757">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.527140" elapsed="0.006149">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.526965" elapsed="0.006551">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.526774" elapsed="0.006966">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.526585" elapsed="0.007374">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.526176" elapsed="0.008044">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.525835" elapsed="0.008658">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.525653" elapsed="0.009064">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.525471" elapsed="0.009461">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.525281" elapsed="0.009861">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.525096" elapsed="0.010252">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.524918" elapsed="0.010649">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.524741" elapsed="0.011037">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.524559" elapsed="0.011423">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.524376" elapsed="0.011809">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.524194" elapsed="0.012212">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.524012" elapsed="0.012596">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.523827" elapsed="0.012981">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.523503" elapsed="0.013566">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.523116" elapsed="0.014167">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.522934" elapsed="0.014580">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.522753" elapsed="0.014961">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.522575" elapsed="0.015338">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.522393" elapsed="0.015717">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.522212" elapsed="0.016088">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.522027" elapsed="0.016464">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.521842" elapsed="0.016838">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.521629" elapsed="0.017240">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.521419" elapsed="0.017641">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.521203" elapsed="0.018043">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.520996" elapsed="0.018440">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.520715" elapsed="0.018966">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.520143" elapsed="0.019745">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.519899" elapsed="0.020257">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.519692" elapsed="0.020647">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.519340" elapsed="0.021179">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.519137" elapsed="0.021564">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.518938" elapsed="0.021939">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.518739" elapsed="0.022313">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.518533" elapsed="0.022695">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.518335" elapsed="0.023066">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.518131" elapsed="0.023449">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.517930" elapsed="0.023898">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.517723" elapsed="0.024322">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.517511" elapsed="0.024708">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.517050" elapsed="0.025387">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.516765" elapsed="0.025895">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.516527" elapsed="0.026310">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.516307" elapsed="0.026697">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.516075" elapsed="0.027095">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.515849" elapsed="0.027487">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.515627" elapsed="0.027881">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.515391" elapsed="0.028282">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.515159" elapsed="0.028676">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.514810" elapsed="0.029186">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.514584" elapsed="0.029567">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.514346" elapsed="0.029959">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.514106" elapsed="0.030352">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.513589" elapsed="0.031079">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.513107" elapsed="0.031730">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.512878" elapsed="0.032136">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.512653" elapsed="0.032515">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.512431" elapsed="0.032886">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.512206" elapsed="0.033271">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.511979" elapsed="0.033649">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.511736" elapsed="0.034035">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.511478" elapsed="0.034438">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.511205" elapsed="0.034851">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.510940" elapsed="0.035255">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.510678" elapsed="0.035659">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.510404" elapsed="0.036070">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.509971" elapsed="0.036691">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.509229" elapsed="0.037591">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.508921" elapsed="0.038116">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.508653" elapsed="0.038595">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.508172" elapsed="0.039248">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.507918" elapsed="0.039652">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.507670" elapsed="0.040034">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.507412" elapsed="0.040429">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.507140" elapsed="0.040830">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.506886" elapsed="0.041211">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.506598" elapsed="0.041624">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.506305" elapsed="0.042044">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.506003" elapsed="0.042488">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.505690" elapsed="0.042925">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.504995" elapsed="0.043789">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.504573" elapsed="0.044404">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.504276" elapsed="0.044836">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.503989" elapsed="0.045247">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.503684" elapsed="0.045676">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.503389" elapsed="0.046100">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.503078" elapsed="0.046534">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.502741" elapsed="0.046992">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.502439" elapsed="0.047414">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.502149" elapsed="0.047818">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.501858" elapsed="0.048221">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.501486" elapsed="0.048706">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.501095" elapsed="0.049207">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.500456" elapsed="0.050013">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.499718" elapsed="0.050872">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.499332" elapsed="0.051391">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.498979" elapsed="0.051853">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.498620" elapsed="0.052316">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.498261" elapsed="0.052776">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.497894" elapsed="0.053244">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.497482" elapsed="0.053754">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.496968" elapsed="0.054372">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.496540" elapsed="0.054898">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.496094" elapsed="0.055453">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.495625" elapsed="0.056022">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.495115" elapsed="0.056626">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.494299" elapsed="0.057621">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.492914" elapsed="0.059118">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.492378" elapsed="0.059824">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.491909" elapsed="0.060382">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.491270" elapsed="0.061109">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.489433" elapsed="0.063031">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.488799" elapsed="0.063749">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.488215" elapsed="0.064415">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.487602" elapsed="0.065108">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.486975" elapsed="0.065817">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.486180" elapsed="0.066692">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.485168" elapsed="0.067783">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.484194" elapsed="0.068834">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.483181" elapsed="0.069920">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.480558" elapsed="0.072659">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.479056" elapsed="0.074279">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.477780" elapsed="0.075641">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.476780" elapsed="0.076729">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.475836" elapsed="0.077745">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.474853" elapsed="0.078796">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.473899" elapsed="0.079818">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.472880" elapsed="0.080902">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.471877" elapsed="0.081968">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.470688" elapsed="0.083238">Recursive execution stopped.</status>
+</kw>
+<arg>Admin</arg>
+<arg>wrongpass</arg>
+<status status="FAIL" start="2025-11-26T15:22:30.141672" elapsed="8.412318">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:30.141278" elapsed="8.413080">Recursive execution stopped.</status>
+</test>
+<test id="s1-t3" name="Invalid Username Test" line="9">
+<kw name="Execute Login">
+<kw name="Launch Browser" owner="HRMResources">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:38.556279" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-26T15:22:38.556097" elapsed="3.842685"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-11-26T15:22:42.399047" elapsed="0.025992"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-26T15:22:44.425605" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-26T15:22:42.425220" elapsed="2.000525"/>
+</kw>
+<status status="PASS" start="2025-11-26T15:22:38.555880" elapsed="5.870031"/>
+</kw>
+<kw name="Login Details" owner="HRMResources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:44.426904" level="INFO">Typing text 'WrongUser' into text field 'name:username'.</msg>
+<arg>name:username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:44.426614" elapsed="0.119040"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:44.546064" level="INFO">Typing text 'admin123' into text field 'name:password'.</msg>
+<arg>name:password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:44.545842" elapsed="0.098760"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-11-26T15:22:44.645434" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-26T15:22:44.644913" elapsed="0.095254"/>
+</kw>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="PASS" start="2025-11-26T15:22:44.426152" elapsed="0.314283"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-26T15:22:46.741437" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-26T15:22:44.740702" elapsed="2.000884"/>
+</kw>
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<kw name="Close Browser" owner="HRMResources">
+<msg time="2025-11-26T15:22:46.810340" level="FAIL">Recursive execution stopped.</msg>
+<status status="FAIL" start="2025-11-26T15:22:46.809545" elapsed="0.000918">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.809227" elapsed="0.001881">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.808740" elapsed="0.002853">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.807775" elapsed="0.004221">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.807401" elapsed="0.005105">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.807068" elapsed="0.005799">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.806727" elapsed="0.006495">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.806383" elapsed="0.007188">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.806070" elapsed="0.008186">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.805708" elapsed="0.009215">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.805358" elapsed="0.010298">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.805004" elapsed="0.011239">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.804656" elapsed="0.012309">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.804324" elapsed="0.013244">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.803976" elapsed="0.014199">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.803702" elapsed="0.015151">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.802983" elapsed="0.016408">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.794098" elapsed="0.025911">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.793740" elapsed="0.027010">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.793337" elapsed="0.028133">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.792892" elapsed="0.029310">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.792504" elapsed="0.030152">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.792144" elapsed="0.031147">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.791796" elapsed="0.031757">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.791400" elapsed="0.032385">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.791047" elapsed="0.032979">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.790694" elapsed="0.033565">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.790315" elapsed="0.034167">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.790010" elapsed="0.034699">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.789588" elapsed="0.035731">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.788958" elapsed="0.037123">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.788604" elapsed="0.038255">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.788224" elapsed="0.039164">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.787861" elapsed="0.039996">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.787516" elapsed="0.040818">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.787135" elapsed="0.041932">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.786860" elapsed="0.042917">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.786228" elapsed="0.044299">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.785906" elapsed="0.045131">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.785600" elapsed="0.045878">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.785228" elapsed="0.046736">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.784865" elapsed="0.047665">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.784404" elapsed="0.048768">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.783720" elapsed="0.049726">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.783322" elapsed="0.050767">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.782902" elapsed="0.051774">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.782526" elapsed="0.052775">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.782174" elapsed="0.053767">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.781795" elapsed="0.054759">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.781396" elapsed="0.055745">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.781021" elapsed="0.056652">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.780782" elapsed="0.057240">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.780370" elapsed="0.058031">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.780055" elapsed="0.058829">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.779792" elapsed="0.059654">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.779457" elapsed="0.060515">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.778930" elapsed="0.061695">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.776761" elapsed="0.064439">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.776442" elapsed="0.065549">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.776052" elapsed="0.066503">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.775740" elapsed="0.067370">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.775418" elapsed="0.068310">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.775134" elapsed="0.069147">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.774758" elapsed="0.070043">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.774399" elapsed="0.070865">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.774092" elapsed="0.071617">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.773778" elapsed="0.072400">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.773474" elapsed="0.073221">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.773110" elapsed="0.074007">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.772553" elapsed="0.075104">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.771913" elapsed="0.075962">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.771583" elapsed="0.076839">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.771227" elapsed="0.077768">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.770915" elapsed="0.078625">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.770565" elapsed="0.079480">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.770258" elapsed="0.080254">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.769899" elapsed="0.081010">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.769536" elapsed="0.081584">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.769167" elapsed="0.082196">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.768819" elapsed="0.082767">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.768471" elapsed="0.083353">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.768121" elapsed="0.083920">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.767640" elapsed="0.084823">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.766639" elapsed="0.086335">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.766239" elapsed="0.087326">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.765849" elapsed="0.088214">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.765454" elapsed="0.089075">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.765100" elapsed="0.089885">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.764726" elapsed="0.090711">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.764397" elapsed="0.091493">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.764023" elapsed="0.092331">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.763663" elapsed="0.093142">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.763301" elapsed="0.093939">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.763070" elapsed="0.094608">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.762726" elapsed="0.095177">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.762267" elapsed="0.095810">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.761325" elapsed="0.097155">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.760398" elapsed="0.098429">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.760056" elapsed="0.098953">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.759724" elapsed="0.099451">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.759395" elapsed="0.099950">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.759027" elapsed="0.100486">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.758628" elapsed="0.101038">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.758424" elapsed="0.101387">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.758187" elapsed="0.101764">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.757854" elapsed="0.102240">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.757523" elapsed="0.102715">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.757171" elapsed="0.103202">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.756821" elapsed="0.103693">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.756288" elapsed="0.104435">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.755655" elapsed="0.105219">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.755283" elapsed="0.105754">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.754905" elapsed="0.106263">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.754499" elapsed="0.106806">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.754139" elapsed="0.107296">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.753779" elapsed="0.107794">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.753416" elapsed="0.108293">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.753069" elapsed="0.108755">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.752819" elapsed="0.109121">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.752545" elapsed="0.109511">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.752337" elapsed="0.109835">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.752063" elapsed="0.110224">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.751586" elapsed="0.110887">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.750609" elapsed="0.112003">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.750180" elapsed="0.112647">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.749812" elapsed="0.113129">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.749490" elapsed="0.113558">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.749123" elapsed="0.114028">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.748775" elapsed="0.114482">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.748406" elapsed="0.114968">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.748101" elapsed="0.115382">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.747822" elapsed="0.115768">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.747491" elapsed="0.116196">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.747222" elapsed="0.116582">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.746965" elapsed="0.116967">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.746680" elapsed="0.117348">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.745878" elapsed="0.118308">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.745330" elapsed="0.119008">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.745024" elapsed="0.119418">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.743856" elapsed="0.120690">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.743579" elapsed="0.121054">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.743257" elapsed="0.121480">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.742917" elapsed="0.121905">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.742600" elapsed="0.122305">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.742260" elapsed="0.122723">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:46.741852" elapsed="0.123211">Recursive execution stopped.</status>
+</kw>
+<arg>WrongUser</arg>
+<arg>admin123</arg>
+<status status="FAIL" start="2025-11-26T15:22:38.555601" elapsed="8.309542">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2025-11-26T15:22:38.555087" elapsed="8.310477">Recursive execution stopped.</status>
+</test>
+<status status="FAIL" start="2025-11-26T15:22:21.277494" elapsed="25.589213"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="LoginHRMDD" id="s1" pass="0" fail="3" skip="0">LoginHRMDD</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

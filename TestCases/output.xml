@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-12-02T17:35:59.036745" rpa="false" schemaversion="5">
+<suite id="s1" name="Raidobutton" source="C:\Users\AIFA USER 77\PycharmProjects\Practice1\testcases\Raidobutton.robot">
+<test id="s1-t1" name="Testing Radio Button and CheckBoxes" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-02T17:35:59.454588" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-12-02T17:35:59.454313" elapsed="2.197069"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>2seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-12-02T17:36:01.651889" elapsed="0.000297"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-12-02T17:36:01.652531" elapsed="2.192961"/>
+</kw>
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2025-12-02T17:36:03.847499" level="INFO">Selecting 'radio1' from radio button 'radioButton'.</msg>
+<arg>radioButton</arg>
+<arg>radio1</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="PASS" start="2025-12-02T17:36:03.846843" elapsed="6.201105"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-12-02T17:36:10.050683" level="INFO">Selecting checkbox 'checkBoxOption1'.</msg>
+<arg>checkBoxOption1</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-02T17:36:10.049335" elapsed="8.182719"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2025-12-02T17:36:18.234617" level="INFO">Selecting checkbox 'checkBoxOption2'.</msg>
+<arg>checkBoxOption2</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-02T17:36:18.233613" elapsed="8.226353"/>
+</kw>
+<kw name="Unselect Checkbox" owner="SeleniumLibrary">
+<msg time="2025-12-02T17:36:26.461741" level="INFO">Unselecting checkbox 'checkBoxOption1'.</msg>
+<arg>checkBoxOption1</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-02T17:36:26.461078" elapsed="8.188227"/>
+</kw>
+<status status="PASS" start="2025-12-02T17:35:59.453260" elapsed="35.198043"/>
+</test>
+<status status="PASS" start="2025-12-02T17:35:59.038219" elapsed="35.618077"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Raidobutton" id="s1" pass="1" fail="0" skip="0">Raidobutton</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
